@@ -1,0 +1,53 @@
+
+body{
+    font-family: "Kantumruy Pro", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#navbar-CTA {
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+#navbar-CTA button {
+    background-color: #FFE18D;
+}
+
+.navbar-collapse #navbar-CTA {
+    display: none;
+}
+
+.dropdwon #user-menu {
+    display: none;
+}
+
+.user-account-icon-btn {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    #navbar-CTA {
+        display: none;
+    }
+    
+    .navbar-collapse #navbar-CTA {
+        display: flex;
+    }
+
+    .navbar-collapse #navbar-CTA button {
+        width: max-content;
+    }
+    #user-menu {
+        display: flex;
+    }
+
+    .user-account-icon-btn {
+        display: block;
+    }
+
+    .menu-account-btn {
+        display: none;
+    }
+}
