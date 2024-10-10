@@ -34,12 +34,13 @@ body{
 #hero-wrapper {
     background-image: url(../images/backpacking_friends_depositphotos-768x432.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
     background-position: right;
     position: relative;
     z-index: 1;
 }
 #hero-wrapper::before {
+    background-size: 70%;
     background: linear-gradient(to right, #06576A 30%, transparent 100%);
     content: "";
     height: 100%;
@@ -91,4 +92,7 @@ body{
         width: 100%;
         z-index: -1;
 }
+    #hero-wrapper{
+        background-size: cover;
+    }
 }
